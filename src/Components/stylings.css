@@ -6,13 +6,12 @@
     color: #00ad7c;
     text-decoration:underline;
 }
-
 .header{
-    height: 30rem;
-    background-color:#eefbfb;
+    height:37rem;
+    background-color:#e3ffff;
 }
 .discountSection{
-    background-color:#eefbfb;
+    background-color:#e6fefe;
     text-align:center;
 }
 .priceDistount{
@@ -25,7 +24,6 @@
     margin:50px 0px;
     text-align: center;
 }
-
 .plusBtn :hover {
     background-color: #00698b;
     border-radius: 50%;
@@ -38,28 +36,23 @@
     background-color: #ffffff;
     border: none;
 }
-
 .eachCard{
-    width: 20rem;
+    width: 21rem;
     margin: 10px;
     cursor: pointer;
 }
-
 .favIcon {
     display: none;
 }
-
 .eachCard:hover .favIcon {
     display: block;
 }
-
 #tableImg {
     width: 100%;
     height: 280px;
     object-fit: cover;
     opacity: 0.6;
 }
-
 .imageContainer {
     overflow: hidden;
     height: 40vh;
@@ -67,14 +60,12 @@
     background-color: rgba(0, 0, 0, 0.966);
 
 }
-
 .pageTitle {
     color: #ffffff;
     text-align: center;
     position: relative;
     bottom: 10rem;
 }
-
 /* footer Styles  */
 .eachColumnFooter:hover{
     color: #fff200;
@@ -84,22 +75,18 @@
     color: #b1b1b1;
     cursor: pointer;
 }
-
-
 /* Cart Page CSS */
 #cartSummary {
     background-color: #ffffff;
     border-radius: 15px;
     padding: 25px 50px;
 }
-
 #itemStyle {
     background-color: #ffffff;
     margin: 10px 20px;
     border-radius: 15px;
     padding: 15px;
 }
-
 .allItemsBody {
     width: 50%;
     height: 40rem;

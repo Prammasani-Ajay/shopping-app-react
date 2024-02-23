@@ -98,7 +98,7 @@ function Homepage() {
                     <section className='d-flex flex-wrap justify-content-center'>
                         {
                             discoutProducts.map((item, index) => (
-                                <div className="card" style={{ width: "21rem", margin: "10px", cursor: "pointer" }} key={(index)}>
+                                <div className="card eachCard" key={(index)}>
                                     <div className='d-flex justify-content-between align-items-center p-3'>
                                         <span className='priceDistount'>{`${item.discount}% Off`}</span>
                                         <FontAwesomeIcon icon={faHeart} className='favIcon fs-3 text-danger' />
@@ -128,7 +128,7 @@ function Homepage() {
                     <section className='d-flex flex-wrap justify-content-center'>
                         {
                             products.filter((item) => item.category === "mobile" || item.category === "wireless").map((item, i) => (
-                                <div className="card" style={{ width: "21rem", margin: "10px", cursor: "pointer" }} key={(i)}>
+                                <div className="card eachCard" key={(i)}>
                                     <Link to={`/product/${item.id}`} style={{ height: "15rem" }}>
                                         <img src={item.imgUrl} className="card-img-top" alt="My Image" />
                                     </Link>
@@ -155,7 +155,7 @@ function Homepage() {
                     <section className='d-flex flex-wrap justify-content-center'>
                         {
                             products.filter((item) => item.category === "sofa").map((item, i) => (
-                                <div className="card" style={{ width: "21rem", margin: "10px", cursor: "pointer" }} key={(i)}>
+                                <div className="card eachCard" key={(i)}>
                                     <Link to={`/product/${item.id}`} style={{ height: "15rem" }}>
                                         <img src={item.imgUrl} className="card-img-top" alt="My Image" />
                                     </Link>
