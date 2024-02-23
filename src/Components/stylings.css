@@ -1,0 +1,134 @@
+/* Navbar titles Styles */
+.navbarTitles{
+    font-weight: 600;
+}
+.navbarTitles .nav-link:hover{
+    color: #00ad7c;
+    text-decoration:underline;
+}
+
+.header{
+    height: 30rem;
+    background-color:#eefbfb;
+}
+.discountSection{
+    background-color:#eefbfb;
+    text-align:center;
+}
+.priceDistount{
+    background-color:#00238b;
+    padding:5px 10px;
+    color:#ffffff;
+    border-radius:25px;
+}
+.newArrivals{
+    margin:50px 0px;
+    text-align: center;
+}
+
+.plusBtn :hover {
+    background-color: #00698b;
+    border-radius: 50%;
+    color: #ffffff;
+}
+.plusBtn {
+    padding: 6px;
+    color: darkblue;
+    font-size: 25px;
+    background-color: #ffffff;
+    border: none;
+}
+
+.eachCard{
+    width: 20rem;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.favIcon {
+    display: none;
+}
+
+.eachCard:hover .favIcon {
+    display: block;
+}
+
+#tableImg {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    opacity: 0.6;
+}
+
+.imageContainer {
+    overflow: hidden;
+    height: 40vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.966);
+
+}
+
+.pageTitle {
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+    bottom: 10rem;
+}
+
+/* footer Styles  */
+.eachColumnFooter:hover{
+    color: #fff200;
+    cursor: pointer;
+}
+.listOfItemsInFooter>li:hover{
+    color: #b1b1b1;
+    cursor: pointer;
+}
+
+
+/* Cart Page CSS */
+#cartSummary {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 25px 50px;
+}
+
+#itemStyle {
+    background-color: #ffffff;
+    margin: 10px 20px;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.allItemsBody {
+    width: 50%;
+    height: 40rem;
+    overflow: auto;
+    align-self: center;
+}
+.imgInCart{
+    width: 150px;
+}
+.itemsCountStyle{
+    background-color:#000000;
+    color:#ffffff;
+    border-radius:50%;
+    position:relative;
+    right:10px;
+    width: 25px;
+    padding: 0px 3px;
+}
+@media screen and (min-width: 320px) and (max-width: 1024px){
+    .allItemsBody{
+        width: 100%;
+        height: 25rem;
+        overflow: auto;
+        align-self: center;
+    }
+    #cartSummary{
+        margin: auto;
+    }
+    .imgInCart{
+        width:85px;
+    }
+}
