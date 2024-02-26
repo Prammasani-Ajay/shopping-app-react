@@ -48,7 +48,6 @@ function Shoppingpage() {
 
     }, [itemInCart, userChoice])
 
-
     return (
         <>
             <Header cart={itemInCart} />
@@ -59,11 +58,12 @@ function Shoppingpage() {
                 </div>
                 <h1 className="pageTitle">All Products</h1>
                 <section className="allproducts">
-                    <div className="container d-flex flex-column flex-sm-row justify-content-around">
+                    <div className="container d-flex flex-column flex-sm-row justify-content-around mb-3">
                         <select name="Items" className="col-sm-2 col-md-auto btn btn-primary rounded-2" onChange={handleDropdown}>
                             <option value="sofa">Filter by Category</option>
                             <option value="sofa">Sofa's</option>
                             <option value="chair">Chairs</option>
+                            <option value="watch">Watches</option>
                             <option value="mobile">Mobiles</option>
                             <option value="wireless">Wireless</option>
                         </select>

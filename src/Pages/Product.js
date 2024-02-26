@@ -43,7 +43,6 @@ function Product() {
             toast.success("Product has been added to cart!");
         }
     }
-
     useEffect(() => {
 
         localStorage.setItem("cartData", JSON.stringify(itemInCart))
